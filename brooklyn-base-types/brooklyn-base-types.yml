@@ -11,7 +11,7 @@ description: Some types for Apache Brooklyn
 
 node_types:
 
-  org.apache.brooklyn.Compute
+  org.apache.brooklyn.Compute:
     derived_from: tosca.nodes.Compute
     description: >
       The base implementation for a brooklyn compute node
